@@ -32,7 +32,7 @@ export const claimUsername = async (username: string) => {
     }
   });
 
-  if (!user) return { success: false, error: "No authenticated user found" };
+  if (!user) return { success: false, error: "No authenticated user is found" };
 
   return { success: true };
 
